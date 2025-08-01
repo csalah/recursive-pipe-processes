@@ -14,7 +14,7 @@ This C program demonstrates recursive process creation and inter process communi
   - Creates a child (unless it's the last one)
   - Reads messages from the pipe connected to its child
 - The parent waits for the child to finish before printing its own completion message
-- The program uses `fork()`, `pipe()`, `execlp()`, `dup2()`, `read()`, `write()`, and `wait()` system calls.
+- The program uses `fork()`, `pipe()`, `execlp()`, `dup2()`, `read()`, `write()`, and `wait()` system calls
 
 ---
 
