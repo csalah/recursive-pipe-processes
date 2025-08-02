@@ -16,7 +16,7 @@ C program demonstrating recursive process creation and inter process communicati
 
 ---
 
-## ▶️ Compilation & How to Run
+## ▶️ Compilation/Run
 
 
 ```bash
