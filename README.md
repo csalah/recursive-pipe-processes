@@ -1,6 +1,6 @@
 # Recursive Pipe and Process Creation in C
 
-This C program demonstrates recursive process creation and inter process communication using pipes. Each process spawns a child, passing a decremented process number down the chain. The child process sends messages through a pipe which the parent reads and prints to standard output.
+C program demonstrating recursive process creation and inter process communication using pipes. Each process spawns a child, passing a decremented process number down the chain. The child process sends messages through a pipe which the parent reads and prints to standard output.
 
 ---
 
@@ -16,7 +16,8 @@ This C program demonstrates recursive process creation and inter process communi
 
 ---
 
-## ▶️ Compilation & Usage
+## ▶️ Compilation & How to Run
+
 
 ```bash
 gcc -o cpr cpr.c
